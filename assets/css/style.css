@@ -1,0 +1,159 @@
+.clear{
+	clear:both;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.clearfix:after{
+	content:'.';
+	clear:both;
+	height:0;
+	width:0;
+	display:block;
+	visibility:hidden;
+}
+
+/*
+ * PAGE D'AJOUT ET MODIF DES SIDEBARS
+ */
+textarea[name^="square_sidebars"]{
+	width:100%;
+	height:50px;
+	resize:vertical;
+}
+ 
+/* shortcode */
+.square-shortcode code{
+	cursor:pointer;
+}
+
+/* advanced options */
+.square-sidebars-advanced{
+	font-family:Consolas,Monaco,monospace;
+}
+
+/* display - on which pages of the website ? */
+#poststuff h3{
+	padding:10px 10px 11px 14px!important;
+}
+
+/*
+ * Style of the list of the posts, pages etc. in the WP-style
+ */
+
+.manage-menus{
+	margin-top:20px!important;
+}
+
+	.manage-menus .dashicons-info:before{
+		margin:0 5px 0 5px;
+	}
+
+#nav-menus-frame{
+	margin-top:0;
+}
+
+.accordion-section ~ .accordion-section{
+	border-top:none!important;
+}
+
+#nav-menu-meta .accordion-container .accordion-section:last-child{
+	box-shadow:none;
+}
+
+h3.accordion-section-title{
+	cursor:pointer!important;
+}
+
+.tabs-panel{
+	overflow:hidden!important;
+	max-height:280px!important;
+}
+
+	.tabs-panel ul{
+		overflow:auto;
+		max-height:200px;
+	}
+	
+	.tabs-panel .quick-search{
+		margin-top:15px;
+	}
+
+	.tabs-panel .quick-search{
+		color:#333;
+		font-style:normal;
+		line-height:normal;
+	}
+
+	.tabs-panel .quick-search::-webkit-input-placeholder {
+		font-style:italic;
+	}
+
+	.tabs-panel .quick-search:-moz-placeholder { /* Firefox 18- */
+		font-style:italic;
+	}
+
+	.tabs-panel .quick-search::-moz-placeholder {  /* Firefox 19+ */
+		font-style:italic;
+	}
+
+	.tabs-panel .quick-search:-ms-input-placeholder {  
+		font-style:italic;
+	}
+
+.square-display-wrapper td:first-child{
+	padding:15px 0 0 0;
+	width:300px;
+}
+
+.square-display-wrapper td:last-child{
+	padding:5px 0 0 0;
+	vertical-align:top;
+}
+
+	.square-display-wrapper td:last-child .postbox{
+		background:white;
+	}
+	
+	.square-display-wrapper td:last-child td{
+		padding:15px 0 15px 15px;
+	}
+
+.square-display-items{
+	margin-bottom:8px;
+	cursor:default!important;
+}
+
+	.square-display-items span{
+		color:#999;
+	}
+
+		.square-display-items .dashicons-no{
+			font-size:18px;
+			font-weight:normal;
+			color:#bbb;
+			cursor:pointer;
+		}
+		
+		.square-display-items .dashicons-no:before{
+			line-height:42px!important;
+			padding:0;
+			cursor:pointer;
+		}
+		
+		.square-display-items .dashicons-no:hover:before{
+			color:#333;
+		}
+		
+		.square-display-items .dashicons-no.dashicons-before:before{
+			font-size:25px!important;
+		}
+		
+		.square-display-items .item-type{
+			display:inline-block!important;
+		}
+		
+.square-sidebars-select-unselect.inactive{
+	display:none;
+}

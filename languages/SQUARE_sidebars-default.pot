@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SQUARE Sidebars\n"
+"POT-Creation-Date: 2014-08-12 01:01+0100\n"
+"PO-Revision-Date: 2014-08-12 01:01+0100\n"
+"Last-Translator: Daniel <lapides.daniel@gmail.com>\n"
+"Language-Team: Daniel LAPIDES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../square-sidebars.php:138
+msgid ""
+"SQUARE Sidebars is a sidebar management plugin for WordPress that allows "
+"users to create and manage custom sidebars directly from the WordPress "
+"administration. It aims at giving the users the magic wand to create, manage "
+"and replace sidebars. The SQUARE Sidebars plugin is made to boost your "
+"WordPress website by allowing you to display different contents and calls to "
+"action on each pages of your willing. The plugin is shortcode based."
+msgstr ""
+
+#: ../square-sidebars.php:247 ../inc/class-square-post-type.php:33
+#: ../inc/class-square-post-type.php:36
+msgid "SQUARE Sidebars"
+msgstr ""
+
+#: ../square-sidebars.php:248
+msgid ""
+"<p>The new version of the SQUARE Sidebars plugin now uses WordPress' default "
+"tables in the database.</p><p>Thus, for this new version to work "
+"effectively, it is recommended that you <b><u>update all of your custom "
+"sidebars</u></b> (by simply clicking on <i>Update</i>).</p>"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:34
+msgid "SQUARE Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:35
+msgid "SQR Sidebars"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:37
+msgid "Add New"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:38
+msgid "Add New SQR Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:39
+msgid "New SQR Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:40
+msgid "Edit SQR Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:41
+msgid "View SQR Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:42
+msgid "All SQR Sidebars"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:43
+msgid "Search SQR Sidebar"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:44
+msgid "Parent SQR Sidebar:"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:45
+msgid "No SQR Sidebars found."
+msgstr ""
+
+#: ../inc/class-square-post-type.php:46
+msgid "No SQR Sidebars found in Trash."
+msgstr ""
+
+#: ../inc/class-square-post-type.php:83
+msgid "Description"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:93
+msgid "Display options"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:103 ../inc/class-square-post-type.php:329
+msgid "Shortcode"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:113
+msgid "Visibility options"
+msgstr ""
+
+#: ../inc/class-square-post-type.php:123
+msgid "Advanced options"
+msgstr ""
+
+#: ../inc/views/meta-box-advanced-options.php:3
+msgid "before_widget"
+msgstr ""
+
+#: ../inc/views/meta-box-advanced-options.php:13
+msgid "after_widget"
+msgstr ""
+
+#: ../inc/views/meta-box-advanced-options.php:23
+msgid "before_title"
+msgstr ""
+
+#: ../inc/views/meta-box-advanced-options.php:33
+msgid "after_title"
+msgstr ""
+
+#: ../inc/views/meta-box-description.php:5
+msgid ""
+"The description lets you give information about the usage of the sidebar. "
+"<u>Maximum: 1,000 characters</u>."
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:7
+msgid "Choose the pages on which the sidebar should be displayed."
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:41 ../inc/views/meta-box-display.php:88
+#: ../inc/views/meta-box-display.php:135 ../inc/views/meta-box-display.php:177
+msgid "Search"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:58 ../inc/views/meta-box-display.php:108
+#: ../inc/views/meta-box-display.php:151 ../inc/views/meta-box-display.php:196
+msgid "Select all"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:59 ../inc/views/meta-box-display.php:109
+#: ../inc/views/meta-box-display.php:152 ../inc/views/meta-box-display.php:197
+msgid "Unselect all"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:62 ../inc/views/meta-box-display.php:112
+#: ../inc/views/meta-box-display.php:155 ../inc/views/meta-box-display.php:200
+msgid "Add"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:83
+msgid "Post types"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:100 ../inc/views/meta-box-display.php:229
+msgid "Post type"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:172
+msgid "Page templates"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:188 ../inc/views/meta-box-display.php:235
+msgid "Page template"
+msgstr ""
+
+#: ../inc/views/meta-box-display.php:218
+msgid "Display"
+msgstr ""
+
+#: ../inc/views/meta-box-visibility-options.php:3
+msgid "Replace a sidebar"
+msgstr ""
+
+#: ../inc/views/meta-box-visibility-options.php:7
+msgid "Do not replace a sidebar"
+msgstr ""
+
+#: ../inc/views/meta-box-visibility-options.php:11
+msgid "Do not display the sidebar"
+msgstr ""
+
+#: ../inc/views/meta-box-visibility-options.php:17
+msgid "Before"
+msgstr ""
+
+#: ../inc/views/meta-box-visibility-options.php:18
+msgid "After"
+msgstr ""
